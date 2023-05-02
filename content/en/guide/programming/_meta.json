@@ -1,0 +1,12 @@
+{
+  "aside": [
+    {
+      "title": "Programming",
+      "href": "/guide/programming"
+    },
+    {
+      "title": "Learn Python",
+      "href": "/guide/programming/python/intro"
+    }
+  ]
+}

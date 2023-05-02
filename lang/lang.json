@@ -1,0 +1,12 @@
+[
+  {
+    "code": "en",
+    "name": "English (US)",
+    "files": ["en.json", "en-US.json"]
+  },
+  {
+    "code": "es",
+    "name": "Español (Spain)",
+    "files": ["es.json", "es-ES.json"]
+  }
+]
