@@ -1,0 +1,48 @@
+.light-mode {
+  --color: 2, 6, 23;
+  --color-100: 15, 23, 42;
+  --color-200: 30, 41, 59;
+  --color-300: 51, 65, 85;
+  --color-400: 71, 85, 105;
+  --gray: 100, 116, 139;
+  --bg-400: 148, 163, 184;
+  --bg-300: 203, 213, 225;
+  --bg-200: 226, 232, 240;
+  --bg-100: 241, 245, 249;
+  --bg: 248, 250, 252;
+}
+
+.dark-mode {
+  --color: 248, 250, 252;
+  --color-100: 241, 245, 249;
+  --color-200: 226, 232, 240;
+  --color-300: 203, 213, 225;
+  --color-400: 148, 163, 184;
+  --gray: 100, 116, 139;
+  --bg-400: 71, 85, 105;
+  --bg-300: 51, 65, 85;
+  --bg-200: 30, 41, 59;
+  --bg-100: 15, 23, 42;
+  --bg: 2, 6, 23;
+}
+body {
+  background-color: rgb($bg);
+  font-family: "Inter", sans-serif;
+  /* background-image: linear-gradient(to top right, var(--bg), var(--bg-200)); */
+  color: rgb($color);
+}
+
+* {
+  transition: 0.01s;
+}
+
+.Search_Dialog .scrollbar-thumb {
+  background-color: rgb($bg-200) !important;
+  border-radius: 0.5rem !important;
+  width: 0.5rem !important;
+}
+
+.Search_Dialog .scrollbar-track {
+  background: none !important;
+  width: 0.5rem;
+}

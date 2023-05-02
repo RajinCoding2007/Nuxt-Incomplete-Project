@@ -1,0 +1,71 @@
+@import "theme.scss";
+@import "layout.scss";
+
+@media (max-width: 299px) {
+  html,
+  body,
+  #__nuxt {
+    font-size: calc(1vw * 4.5);
+  }
+}
+
+@media (min-width: 300px) {
+  html,
+  body,
+  #__nuxt {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  html,
+  body,
+  #__nuxt {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html,
+  body,
+  #__nuxt {
+    font-size: calc(1vw * 1.143);
+  }
+}
+
+h1 {
+  font-size: 1.802rem;
+}
+h2 {
+  font-size: 1.602rem;
+}
+h3 {
+  font-size: 1.424rem;
+}
+h4 {
+  font-size: 1.266rem;
+}
+h5 {
+  font-size: 1.125rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+div.Hello {
+  font-size: 30px;
+}
+
+:focus-visible {
+  outline: 0.1rem solid $orange;
+  outline-offset: 0;
+}
